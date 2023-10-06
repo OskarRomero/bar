@@ -8,7 +8,8 @@ import logo from "../../assets/images/logo.png";
 
 const Footer = () => {
   return (
-    <footer className="bg-dark py-5">
+    // <footer className="bg-dark py-5">
+    <footer className="py-5">
       <Container>
         <Row>
           <Col lg={6}>

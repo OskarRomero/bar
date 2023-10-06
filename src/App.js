@@ -1,8 +1,8 @@
 //#region app prior to transitions
 import { lazy, Suspense } from "react";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import "bootstrap/dist/css/bootstrap.min.css";
-import "bootstrap/dist/js/bootstrap.min.js";
+// import "bootstrap/dist/css/bootstrap.min.css";
+// import "bootstrap/dist/js/bootstrap.min.js";
 import Index from "./pages/landing/index";
 import RootLayout from "./components/RootLayout";
 
@@ -47,7 +47,7 @@ const router = createBrowserRouter([
 function App() {
   return (
     <Suspense fallback={<h1>loading...</h1>}>
-      <RouterProvider router={router} />;
+      <RouterProvider router={router} />
     </Suspense>
   );
 }
