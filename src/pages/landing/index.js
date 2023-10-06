@@ -5,7 +5,7 @@ import React, { useEffect } from "react";
 // import NavBar from "./NavBar";
 import Hero from "./Hero";
 import Services from "./Services";
-import Layouts from "./Layouts";
+// import Layouts from "./Layouts";
 // import Features from "./Features";
 // import Pricing from "./Pricing";
 // import FAQ from "./FAQ";
@@ -14,7 +14,7 @@ import Layouts from "./Layouts";
 
 // dummy data
 // import { services, layouts, features, plans, rawFaqs } from "./Data";
-import { services, layouts } from "./Data";
+import { services } from "./Data";
 
 const Landing = () => {
   useEffect(() => {
@@ -33,7 +33,7 @@ const Landing = () => {
       <Services services={services} />
 
       {/* layouts */}
-      <Layouts layouts={layouts} />
+      {/* <Layouts layouts={layouts} /> */}
 
       {/* features */}
       {/* <Features /> */}

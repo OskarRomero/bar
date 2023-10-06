@@ -13,7 +13,10 @@ const NavBar = () => {
         collapseOnSelect
         expand="lg"
         variant="dark"
-        className="py-lg-3 bg-dark"
+        // className="py-lg-3 bg-dark"
+        className="py-lg-3"
+        // className="py-lg-3"
+        // style={{ backgroundColor: "#727cf5" }}
       >
         <Container>
           <Navbar.Brand href="/" className="me-lg-5">

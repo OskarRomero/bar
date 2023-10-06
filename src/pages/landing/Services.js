@@ -6,9 +6,9 @@ import classNames from "classnames";
 const Services = ({ services }) => {
   return (
     <>
-      <section className="py-5">
+      <section className="py-1">
         <Container>
-          <Row className="py-4">
+          <Row className="py-1">
             <Col lg={12}>
               <div className="text-center">
                 <h1 className="mt-0">

@@ -5,7 +5,8 @@ import { Container, Row, Col } from "react-bootstrap";
 const Layouts = ({ layouts }) => {
   return (
     <>
-      <section className="py-5 bg-light-lighten border-top border-bottom border-light">
+      {/* <section className="py-5 bg-light-lighten border-top border-bottom border-light"> */}
+      <section className="py-5">
         <Container>
           <Row>
             <Col lg={12}>
